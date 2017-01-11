@@ -75,7 +75,7 @@ install_rocks() {
 }
 
 install() {
-  rm -rf tg && git clone https://github.com/qaheri/tg.git
+  rm -rf tg && git clone --recursive https://github.com/vysheng/tg.git
   git pull
   git submodule update --init --recursive
   patch -i "patches/disable-python-and-libjansson.patch" -p 0 --batch --forward
