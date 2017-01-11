@@ -12,7 +12,7 @@ chmod +x launch.sh
 #(ترجیها)
 ```
 sudo apt-get install git && git clone https://github.com/qaheri/AASv2.git && cd AASv2 && chmod +x launch.sh && ./launch.sh install && ./launch.sh
-
+```
 # Auto Launch Bot With :
 ```
 killall screen
